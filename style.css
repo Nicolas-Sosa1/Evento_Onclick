@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+header{
+    flex: 0.7;
+    display: flex;
+    background-color: #d3d3d3;
+    margin: 0px 60px 0px 60px;
+
+}
+
+
+.nanvar{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    
+}
+
+.nanvar .logo{
+    flex: 1;
+    display: flex;
+    margin-left: 20px;
+
+
+}
+
+.nanvar .searchbar{
+    flex: 2;
+    
+}
+
+.nanvar .searchbar .buscador{
+    padding-right: 500px;
+}
+
+
+.Iniciar_Sesion{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    
+    
+    
+}
+
+.Iniciar_Sesion button{
+    background-color: #288dfb;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 10px;
+}
+
+main{
+    flex: 5;
+    display: flex;
+    
+}
+
+.id_main1{
+    flex: 2;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    
+}
+
+.id_main2{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    margin-top: 20px;
+    
+}
+
+.card_menu1_animales{
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+
+.card_menu1_animales .card_gato_atigrado{
+    flex: 1;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 8px; 
+    align-items: start;
+    
+
+}
+
+.card_menu1_animales .card_golden_retriever{
+    flex:1;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 20px 20px 8px; 
+    align-items: start;
+}
+
+.card_menu1_animales p {
+    font-size: 12px;
+    margin-top: 5px;
+
+    
+}
+
+.card_menu1_animales h2 {
+    font-size: 20px;
+    
+}
+
+
+.meGusta_btn button{
+    background-color: #fffdcb;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 3px;
+    margin-top: 10px;  
+    
+    
+    
+
+}
+
+.id_main2 .card_main2{
+    background-color: white;
+    padding: 5px 10px 15px 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+    
+}
+
+.id_main2 .card_main2 p {
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+
+.agregar_btn button{
+    background-color: #008001;
+    color: white;
+    padding: 4px 30px 4px 30px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    font-size: 10px;
+    
+}
+
